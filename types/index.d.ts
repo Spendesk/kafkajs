@@ -90,6 +90,7 @@ export interface IHeaders {
 
 export interface ConsumerConfig {
   groupId: string
+  groupInstanceId?: string
   partitionAssigners?: PartitionAssigner[]
   metadataMaxAge?: number
   sessionTimeout?: number
